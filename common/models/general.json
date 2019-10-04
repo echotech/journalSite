@@ -1,0 +1,45 @@
+{
+  "name": "general",
+  "plural": "general",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "journal": {
+      "type": "boolean"
+    },
+    "write": {
+      "type": "boolean"
+    },
+    "stayOnBudget": {
+      "type": "boolean"
+    },
+    "amountSpent": {
+      "type": "number"
+    },
+    "spentOn": {
+      "type": "string"
+    },
+    "sideProject": {
+      "type": "boolean"
+    },
+    "workDone": {
+      "type": "string"
+    },
+    "timeOutside": {
+      "type": "number"
+    },
+    "weather": {
+      "type": "string"
+    },
+    "temperature": {
+      "type": "number"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

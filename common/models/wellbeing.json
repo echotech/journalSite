@@ -1,0 +1,28 @@
+{
+  "name": "wellbeing",
+  "plural": "wellbeing",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "meditate": {
+      "type": "string",
+      "default": "meditationType"
+    },
+    "meditationType": {
+      "type": "string"
+    },
+    "coldExposure": {
+      "type": "boolean"
+    },
+    "anxiety": {
+      "type": "number"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

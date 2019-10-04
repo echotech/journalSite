@@ -1,0 +1,39 @@
+{
+  "name": "healthFitness",
+  "plural": "healthFitness",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "jointPain": {
+      "type": "number"
+    },
+    "goutFlare": {
+      "type": "boolean"
+    },
+    "stomachPain": {
+      "type": "number"
+    },
+    "symptoms": {
+      "type": "string"
+    },
+    "sleep": {
+      "type": "number"
+    },
+    "exercise": {
+      "type": "boolean"
+    },
+    "exerciseLength": {
+      "type": "string"
+    },
+    "exerciseActivity": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

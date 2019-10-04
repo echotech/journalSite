@@ -1,0 +1,66 @@
+{
+  "_meta": {
+    "sources": [
+      "loopback/common/models",
+      "loopback/server/models",
+      "../common/models",
+      "./models"
+    ],
+    "mixins": [
+      "loopback/common/mixins",
+      "loopback/server/mixins",
+      "../common/mixins",
+      "./mixins"
+    ]
+  },
+  "User": {
+    "dataSource": "db"
+  },
+  "AccessToken": {
+    "dataSource": "db",
+    "public": false
+  },
+  "ACL": {
+    "dataSource": "db",
+    "public": false
+  },
+  "RoleMapping": {
+    "dataSource": "db",
+    "public": false,
+    "options": {
+      "strictObjectIDCoercion": true
+    }
+  },
+  "Role": {
+    "dataSource": "db",
+    "public": false
+  },
+  "thankfulFor": {
+    "dataSource": "mongoDS",
+    "public": true
+  },
+  "wellbeing": {
+    "dataSource": "mongoDS",
+    "public": true
+  },
+  "healthFitness": {
+    "dataSource": "mongoDS",
+    "public": true
+  },
+  "general": {
+    "dataSource": "mongoDS",
+    "public": true
+  },
+  "relationship": {
+    "dataSource": "mongoDS",
+    "public": true
+  },
+  "learning": {
+    "dataSource": "mongoDS",
+    "public": true
+  },
+  "diet": {
+    "dataSource": "mongoDS",
+    "public": true
+  }
+}

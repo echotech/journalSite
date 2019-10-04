@@ -1,0 +1,44 @@
+{
+  "name": "diet",
+  "plural": "diet",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "date": {
+      "type": "date"
+    },
+    "eatSweets": {
+      "type": "boolean"
+    },
+    "eatCarbs": {
+      "type": "boolean"
+    },
+    "water": {
+      "type": "number"
+    },
+    "caffeine": {
+      "type": [
+        "string"
+      ]
+    },
+    "caffeineType": {
+      "type": "string"
+    },
+    "eatOut": {
+      "type": "boolean"
+    },
+    "restaurant": {
+      "type": "string"
+    },
+    "foodNotes": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

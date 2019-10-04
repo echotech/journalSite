@@ -1,0 +1,30 @@
+{
+  "name": "learning",
+  "plural": "learning",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "reading": {
+      "type": "string"
+    },
+    "watching": {
+      "type": "string"
+    },
+    "articles": {
+      "type": "string"
+    },
+    "conversations": {
+      "type": "string"
+    },
+    "podcasts": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

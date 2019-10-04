@@ -1,0 +1,39 @@
+{
+  "name": "relationship",
+  "plural": "relationship",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "date": {
+      "type": "date"
+    },
+    "dateNight": {
+      "type": "boolean"
+    },
+    "dateActivity": {
+      "type": "string"
+    },
+    "familyTime": {
+      "type": "boolean"
+    },
+    "familyActivity": {
+      "type": "string"
+    },
+    "watchPorn": {
+      "type": "boolean"
+    },
+    "masturbate": {
+      "type": "boolean"
+    },
+    "haveSex": {
+      "type": "boolean"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
